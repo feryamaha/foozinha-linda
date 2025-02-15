@@ -1,0 +1,62 @@
+header {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  padding: 8rem;
+  display: flex;
+  align-items: center;
+  background: black;
+}
+
+header h1 {
+  text-align: center;
+  z-index: 2;
+}
+
+header img {
+  z-index: 1;
+  height: 30rem;
+}
+
+#image-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#image-2 {
+  z-index: 1;
+  height: 40rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* -- s-hero-genesis --*/
+
+.s-hero-genesis {
+  position: relative;
+  height: 100vh;
+  background-image: url(../imgs/bg-genesis.webp);
+  background-size: 35%;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.s-hero-genesis.red {
+  background-image: url(../imgs/bg-genesis-red.webp);
+}
+
+.s-hero-genesis .container {
+  padding: 8rem;
+  height: 100%;
+}
+
+.s-hero-flerte {
+  height: 100vh;
+}
+
+.s-hero-flerte .container {
+  height: 100%;
+  padding: 8rem;
+}
